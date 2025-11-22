@@ -61,7 +61,7 @@ handle_tunnel_option() {
 }
 
 # Nas and storage
-PACKAGES+=" luci-app-diskman luci-app-tinyfm kmod-usb-storage kmod-usb-storage-uas"
+PACKAGES+=" luci-app-diskman luci-app-tinyfilemanager kmod-usb-storage kmod-usb-storage-uas"
 
 # Bandwidth And Network Monitoring
 PACKAGES+=" internet-detector luci-app-internet-detector internet-detector-mod-modem-restart vnstat2 vnstati2 luci-app-netmonitor"
@@ -73,7 +73,7 @@ PACKAGES+=" tailscale luci-app-tailscale"
 PACKAGES+=" speedtestcli luci-app-eqosplus"
 
 # Theme
-PACKAGES+=" luci-theme-argon luci-theme-alpha"
+PACKAGES+=" luci-theme-argon luci-theme-alpha4"
 
 # PHP8
 PACKAGES+=" libc php8 php8-fastcgi php8-fpm php8-mod-session php8-mod-ctype php8-mod-fileinfo php8-mod-zip php8-mod-iconv php8-mod-mbstring"
