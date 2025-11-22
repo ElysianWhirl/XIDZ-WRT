@@ -42,7 +42,12 @@ setup_passwall() {
 
 # Function to download and setup Nikki
 setup_nikki() {
-    log "INFO" "Downloading Nikki packages"
+    log "INFO" "Checking Nikki availability for ${ARCH_3} on OpenWrt ${VEROP}"
+    if [[ -z "${nikki_file_ipk_down}" ]]; then
+        error_msg "Nikki package not found for ${ARCH_3} on OpenWrt ${VEROP}. Skipping or aborting."
+        exit 1
+    fi
+    log "INFO" "Downloading Nikki from: ${nikki_file_ipk_down}"
     ariadl "${nikki_file_ipk_down}" "packages/nikki.tar.gz"
     tar -xzvf "packages/nikki.tar.gz" -C packages > /dev/null 2>&1 && rm "packages/nikki.tar.gz" || error_msg "Error: Failed to extract Nikki package."
 }
