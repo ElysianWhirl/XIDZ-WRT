@@ -55,7 +55,7 @@ packages_custom+=(
     "luci-app-temp-status_|${REPOS[GSPOTX2F]}"
     
     "luci-app-droidnet_|https://api.github.com/repos/animegasan/luci-app-droidmodem/releases/latest"
-    "luci-theme-alpha_|https://api.github.com/repos/derisamedia/luci-theme-alpha/releases/latest"
+    "luci-theme-alpha4_|https://api.github.com/repos/derisamedia/luci-theme-alpha/releases/latest"
     "luci-app-neko_|https://api.github.com/repos/nosignals/openwrt-neko/releases/latest"
 )
 
