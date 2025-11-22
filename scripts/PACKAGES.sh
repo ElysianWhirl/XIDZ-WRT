@@ -39,7 +39,7 @@ packages_custom+=(
     "luci-app-lite-watchdog_|${REPOS[KIDDIN9]}"
 
     "luci-app-oled_|${REPOS[KIDDIN9]}"
-    "luci-app-tinyfm_|${REPOS[KIDDIN9]}"
+    "luci-app-tinyfilemanager_|${REPOS[KIDDIN9]}"
     "modemband_|${REPOS[IMMORTALWRT]}/packages"
     "luci-app-ramfree_|${REPOS[IMMORTALWRT]}/luci"
     "luci-app-modemband_|${REPOS[IMMORTALWRT]}/luci"
